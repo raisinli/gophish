@@ -21,8 +21,9 @@ To build Gophish from source, simply run ```go get github.com/gophish/gophish```
 ### Docker
 You can also use Gophish via the official Docker container [here](https://hub.docker.com/r/gophish/gophish/).
 
-### Setup
-After running the Gophish binary, open an Internet browser to https://localhost:3333 and login with the default username and password listed in the log output.
+### 安装
+本地安装运行后，使用 https://localhost:3333 访问，用户名和密码在安装时已在终端提示.
+请注意首次运行后的账号和密码，如果不做修改，每次运行都会提示密码。默认账号 admin ，首次登录会强制要求修改密码。
 e.g.
 ```
 time="2020-07-29T01:24:08Z" level=info msg="Please login with the username admin and the password 4304d5255378177d"
